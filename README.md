@@ -11,12 +11,12 @@ Standardized numerical features using StandardScaler to normalize the dataset.
 ### Finding the Optimal Number of Clusters (k):
 Used the Elbow Method to determine the best k value by plotting inertia vs. cluster count.
 The optimal value of k was found to be 4 for both the original and PCA-transformed data.
-[Elbow Curve][Images/elbow_curve.png]
+![Elbow Curve](Images/elbow_curve.png)
 
 ### Clustering and Visualization:
 Applied K-Means clustering on both the original scaled data and the PCA-reduced data.
 Generated scatter plots to visualize cluster distributions.
-[Scatter Plot][Images/scatter_plot.png]
+![Scatter Plot](Images/scatter_plot.png)
 
 ### Impact of PCA on Clustering:
 PCA reduced dimensionality while retaining ~89% of the variance in just 3 principal components.
